@@ -5,11 +5,11 @@ import behavior.command.commands.Write;
 
 public class Client {
 
-    public boolean read() {
-        return new Read().execute();
-    }
+  public boolean read() {
+    return new Read().execute();
+  }
 
-    public boolean write() {
-        return new Write().execute();
-    }
+  public boolean write() {
+    return new Write().execute();
+  }
 }

@@ -20,7 +20,5 @@ public class Example {
     while (network.hasNext()) {
       System.out.println(network.getNext().getEmail());
     }
-
   }
-
 }

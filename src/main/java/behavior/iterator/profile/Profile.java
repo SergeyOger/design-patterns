@@ -10,5 +10,4 @@ public class Profile {
   public Profile(String email) {
     this.email = email;
   }
-
 }

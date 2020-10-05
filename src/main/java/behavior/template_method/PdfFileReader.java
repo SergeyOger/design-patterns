@@ -1,6 +1,6 @@
-package behavior.template_method.data;
+package behavior.template_method;
 
-import behavior.template_method.data.model.FileContent;
+import behavior.template_method.model.FileContent;
 
 public class PdfFileReader extends FileReader {
 

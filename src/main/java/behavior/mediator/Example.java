@@ -11,7 +11,11 @@ public class Example {
 
     FactoryProductionLine factoryProductionLine = new FactoryProductionLine(new Conveyor(), new BoltTightenRobot(),
         new WeldingRobot(), new CuttingRobot());
+
+    System.out.println("\nAssembling unit\n".toUpperCase());
     factoryProductionLine.assembleUnit();
+
+    System.out.println("\nDisassembling unit\n".toUpperCase());
     factoryProductionLine.disassembleUnit();
   }
 }

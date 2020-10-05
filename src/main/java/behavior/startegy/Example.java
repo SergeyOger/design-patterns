@@ -10,5 +10,4 @@ public class Example {
     routeBuilder.buildCarRoute();
     routeBuilder.buildWalkingRoute();
   }
-
 }
